@@ -1,0 +1,13 @@
+Git main points
+•	Solves the final doc problem. 
+•	Is a DVCS, distributed version control system (all user has all the code and revision history on the computer that they are working on.)
+
+git init: initializes an empty Git repository in the current working folder.
+git status: Shows the status of your git repository, any modified changes, files in staging area and 
+git add: 
+git log: shows the history of the commits (--oneline: shows one line version which displays nicer.)
+git diff: shows changes between commits, commit and working tree, etc. (--staged: shows stage differences)
+	git diff (hash of the snapshot)
+git checkout: Provide the hash or head number and the file to revert the file to previous state which is a new state to the file (aka a new commit change)
+	if the checkout is executed without the file, it will be at a detached state, and git checkout master will put you back to the state before.
+	
