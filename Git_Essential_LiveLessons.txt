@@ -11,3 +11,5 @@ git diff: shows changes between commits, commit and working tree, etc. (--staged
 git checkout: Provide the hash or head number and the file to revert the file to previous state which is a new state to the file (aka a new commit change)
 	if the checkout is executed without the file, it will be at a detached state, and git checkout master will put you back to the state before.
 	
+git remote:
+git push: where you want to push to and what you want to push
