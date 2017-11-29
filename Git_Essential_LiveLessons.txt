@@ -13,3 +13,9 @@ git checkout: Provide the hash or head number and the file to revert the file to
 	
 git remote:
 git push: where you want to push to and what you want to push
+
+git branch my_branch: creates branch, use -d to delete a non working branch
+	-a shows all the branches
+git checkout is used to also hop between branches 
+
+git merge branch_to_merge: 
