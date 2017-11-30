@@ -1,1 +1,1 @@
-this folder contains raw data used for analysis.
+This folder contains raw data used for analysis.
