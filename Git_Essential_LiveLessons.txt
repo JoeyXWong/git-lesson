@@ -19,3 +19,7 @@ git branch my_branch: creates branch, use -d to delete a non working branch
 git checkout is used to also hop between branches 
 
 git merge branch_to_merge: 
+
+git remote prune origin: this updates your local branches with the remote source. This is useful when you delete branches on github.com and then you want your local to reflect these changes.
+
+git reset --hard: This will reset any local changes for the branch till the last commit.
