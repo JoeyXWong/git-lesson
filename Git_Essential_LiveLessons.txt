@@ -23,3 +23,15 @@ git merge branch_to_merge:
 git remote prune origin: this updates your local branches with the remote source. This is useful when you delete branches on github.com and then you want your local to reflect these changes.
 
 git reset --hard: This will reset any local changes for the branch till the last commit.
+
+Different Workflows:
+1) Centralized Workflow: This would be the best transition from teams used to SVN. 
+2) Feature Branch: This is good workflow. You have a master branch and you branch off features that you are working on into
+	your own local copy. You will go on committing like usual until your code is ready to be merged to master. You then run a pull command
+	on master to check to see if any other features were merged to master. If there are conflicts, it must be resolve and then you will
+	submit a pull request which will act as a code review/discussion on the code change before it is merged with master.
+3) Gitflow workflow:
+4) Forking workflow: Commonly used for open source collaboration where each collaborator who is not the original author will
+	have their own forked version in their repository. Each collaborator will have their own local copy of the forked code and also
+	a public copy in their forked remote. When the collaborator is ready to submit their work, they will initialize a pull request to
+	the original project and the code will be reviewed.
